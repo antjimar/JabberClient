@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97029431B8CB40500AA76F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A97029421B8CB40500AA76F1 /* main.m */; };
+		A97029461B8CB40500AA76F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97029451B8CB40500AA76F1 /* AppDelegate.m */; };
+		A97029491B8CB40500AA76F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97029481B8CB40500AA76F1 /* ViewController.m */; };
+		A970294C1B8CB40500AA76F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A970294A1B8CB40500AA76F1 /* Main.storyboard */; };
+		A970294E1B8CB40500AA76F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A970294D1B8CB40500AA76F1 /* Images.xcassets */; };
+		A97029511B8CB40500AA76F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A970294F1B8CB40500AA76F1 /* LaunchScreen.xib */; };
+		A970295D1B8CB40500AA76F1 /* JabberClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A970295C1B8CB40500AA76F1 /* JabberClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A97029571B8CB40500AA76F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97029351B8CB40500AA76F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A970293C1B8CB40500AA76F1;
+			remoteInfo = JabberClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A970293D1B8CB40500AA76F1 /* JabberClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JabberClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97029411B8CB40500AA76F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97029421B8CB40500AA76F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A97029441B8CB40500AA76F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A97029451B8CB40500AA76F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A97029471B8CB40500AA76F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A97029481B8CB40500AA76F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A970294B1B8CB40500AA76F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A970294D1B8CB40500AA76F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A97029501B8CB40500AA76F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A97029561B8CB40500AA76F1 /* JabberClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JabberClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970295B1B8CB40500AA76F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A970295C1B8CB40500AA76F1 /* JabberClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JabberClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A970293A1B8CB40500AA76F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97029531B8CB40500AA76F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97029341B8CB40500AA76F1 = {
+			isa = PBXGroup;
+			children = (
+				A970293F1B8CB40500AA76F1 /* JabberClient */,
+				A97029591B8CB40500AA76F1 /* JabberClientTests */,
+				A970293E1B8CB40500AA76F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A970293E1B8CB40500AA76F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A970293D1B8CB40500AA76F1 /* JabberClient.app */,
+				A97029561B8CB40500AA76F1 /* JabberClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A970293F1B8CB40500AA76F1 /* JabberClient */ = {
+			isa = PBXGroup;
+			children = (
+				A97029441B8CB40500AA76F1 /* AppDelegate.h */,
+				A97029451B8CB40500AA76F1 /* AppDelegate.m */,
+				A97029471B8CB40500AA76F1 /* ViewController.h */,
+				A97029481B8CB40500AA76F1 /* ViewController.m */,
+				A970294A1B8CB40500AA76F1 /* Main.storyboard */,
+				A970294D1B8CB40500AA76F1 /* Images.xcassets */,
+				A970294F1B8CB40500AA76F1 /* LaunchScreen.xib */,
+				A97029401B8CB40500AA76F1 /* Supporting Files */,
+			);
+			path = JabberClient;
+			sourceTree = "<group>";
+		};
+		A97029401B8CB40500AA76F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97029411B8CB40500AA76F1 /* Info.plist */,
+				A97029421B8CB40500AA76F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A97029591B8CB40500AA76F1 /* JabberClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				A970295C1B8CB40500AA76F1 /* JabberClientTests.m */,
+				A970295A1B8CB40500AA76F1 /* Supporting Files */,
+			);
+			path = JabberClientTests;
+			sourceTree = "<group>";
+		};
+		A970295A1B8CB40500AA76F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A970295B1B8CB40500AA76F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A970293C1B8CB40500AA76F1 /* JabberClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97029601B8CB40500AA76F1 /* Build configuration list for PBXNativeTarget "JabberClient" */;
+			buildPhases = (
+				A97029391B8CB40500AA76F1 /* Sources */,
+				A970293A1B8CB40500AA76F1 /* Frameworks */,
+				A970293B1B8CB40500AA76F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JabberClient;
+			productName = JabberClient;
+			productReference = A970293D1B8CB40500AA76F1 /* JabberClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97029551B8CB40500AA76F1 /* JabberClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97029631B8CB40500AA76F1 /* Build configuration list for PBXNativeTarget "JabberClientTests" */;
+			buildPhases = (
+				A97029521B8CB40500AA76F1 /* Sources */,
+				A97029531B8CB40500AA76F1 /* Frameworks */,
+				A97029541B8CB40500AA76F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97029581B8CB40500AA76F1 /* PBXTargetDependency */,
+			);
+			name = JabberClientTests;
+			productName = JabberClientTests;
+			productReference = A97029561B8CB40500AA76F1 /* JabberClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97029351B8CB40500AA76F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Antonio;
+				TargetAttributes = {
+					A970293C1B8CB40500AA76F1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A97029551B8CB40500AA76F1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A970293C1B8CB40500AA76F1;
+					};
+				};
+			};
+			buildConfigurationList = A97029381B8CB40500AA76F1 /* Build configuration list for PBXProject "JabberClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97029341B8CB40500AA76F1;
+			productRefGroup = A970293E1B8CB40500AA76F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A970293C1B8CB40500AA76F1 /* JabberClient */,
+				A97029551B8CB40500AA76F1 /* JabberClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A970293B1B8CB40500AA76F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A970294C1B8CB40500AA76F1 /* Main.storyboard in Resources */,
+				A97029511B8CB40500AA76F1 /* LaunchScreen.xib in Resources */,
+				A970294E1B8CB40500AA76F1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97029541B8CB40500AA76F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97029391B8CB40500AA76F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97029491B8CB40500AA76F1 /* ViewController.m in Sources */,
+				A97029461B8CB40500AA76F1 /* AppDelegate.m in Sources */,
+				A97029431B8CB40500AA76F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97029521B8CB40500AA76F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A970295D1B8CB40500AA76F1 /* JabberClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97029581B8CB40500AA76F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A970293C1B8CB40500AA76F1 /* JabberClient */;
+			targetProxy = A97029571B8CB40500AA76F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A970294A1B8CB40500AA76F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A970294B1B8CB40500AA76F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A970294F1B8CB40500AA76F1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97029501B8CB40500AA76F1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A970295E1B8CB40500AA76F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A970295F1B8CB40500AA76F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97029611B8CB40500AA76F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JabberClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A97029621B8CB40500AA76F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JabberClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A97029641B8CB40500AA76F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JabberClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JabberClient.app/JabberClient";
+			};
+			name = Debug;
+		};
+		A97029651B8CB40500AA76F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JabberClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JabberClient.app/JabberClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97029381B8CB40500AA76F1 /* Build configuration list for PBXProject "JabberClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A970295E1B8CB40500AA76F1 /* Debug */,
+				A970295F1B8CB40500AA76F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97029601B8CB40500AA76F1 /* Build configuration list for PBXNativeTarget "JabberClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97029611B8CB40500AA76F1 /* Debug */,
+				A97029621B8CB40500AA76F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A97029631B8CB40500AA76F1 /* Build configuration list for PBXNativeTarget "JabberClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97029641B8CB40500AA76F1 /* Debug */,
+				A97029651B8CB40500AA76F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97029351B8CB40500AA76F1 /* Project object */;
+}
