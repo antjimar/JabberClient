@@ -36,6 +36,8 @@
 		A9152ABA1B944E9E00E57B83 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		A9152ABB1B944E9E00E57B83 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		A9152ABC1B944E9E00E57B83 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		A9152ABF1B946A7F00E57B83 /* ChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDelegate.h; sourceTree = "<group>"; };
+		A9152AC01B946A9900E57B83 /* MessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDelegate.h; sourceTree = "<group>"; };
 		A970293D1B8CB40500AA76F1 /* JabberClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JabberClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97029411B8CB40500AA76F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A97029421B8CB40500AA76F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +128,8 @@
 				A97029471B8CB40500AA76F1 /* JabberClientViewController.h */,
 				A97029481B8CB40500AA76F1 /* JabberClientViewController.m */,
 				A970294A1B8CB40500AA76F1 /* Main.storyboard */,
+				A9152ABF1B946A7F00E57B83 /* ChatDelegate.h */,
+				A9152AC01B946A9900E57B83 /* MessageDelegate.h */,
 				A970294D1B8CB40500AA76F1 /* Images.xcassets */,
 				A970294F1B8CB40500AA76F1 /* LaunchScreen.xib */,
 				A97029401B8CB40500AA76F1 /* Supporting Files */,
