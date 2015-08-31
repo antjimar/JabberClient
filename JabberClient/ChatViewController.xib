@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatViewController">
+            <connections>
+                <outlet property="messageField" destination="2cC-Bj-bU2" id="ryo-oy-ceQ"/>
+                <outlet property="tableView" destination="saK-0Y-Agv" id="HVO-KP-Vd4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oj4-z0-vv1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <items>
+                        <navigationItem title="Title" id="xdY-W0-BR4">
+                            <barButtonItem key="leftBarButtonItem" systemItem="stop" id="Zyg-up-BEL">
+                                <connections>
+                                    <action selector="closeChat:" destination="-1" id="7A0-37-eoN"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2cC-Bj-bU2">
+                    <rect key="frame" x="8" y="58" width="495" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePf-Uo-zyx">
+                    <rect key="frame" x="522" y="58" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="ECl-nL-YrL"/>
+                    </constraints>
+                    <state key="normal" title="Send">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sendMessage:" destination="-1" eventType="touchUpInside" id="mBY-Qv-kpB"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="saK-0Y-Agv">
+                    <rect key="frame" x="0.0" y="104" width="600" height="496"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="saK-0Y-Agv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0Xz-Au-wDN"/>
+                <constraint firstItem="saK-0Y-Agv" firstAttribute="top" secondItem="ePf-Uo-zyx" secondAttribute="bottom" constant="16" id="7Vf-K9-k0Z"/>
+                <constraint firstAttribute="trailing" secondItem="saK-0Y-Agv" secondAttribute="trailing" id="IBj-wc-GQf"/>
+                <constraint firstItem="ePf-Uo-zyx" firstAttribute="leading" secondItem="2cC-Bj-bU2" secondAttribute="trailing" constant="19" id="MSJ-g3-paX"/>
+                <constraint firstItem="2cC-Bj-bU2" firstAttribute="top" secondItem="Oj4-z0-vv1" secondAttribute="bottom" constant="14" id="NUx-aP-5oA"/>
+                <constraint firstItem="ePf-Uo-zyx" firstAttribute="top" secondItem="Oj4-z0-vv1" secondAttribute="bottom" constant="14" id="TEG-zN-6eV"/>
+                <constraint firstAttribute="trailing" secondItem="ePf-Uo-zyx" secondAttribute="trailing" constant="18" id="Xgt-me-iML"/>
+                <constraint firstItem="Oj4-z0-vv1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YaJ-wt-taY"/>
+                <constraint firstAttribute="trailing" secondItem="Oj4-z0-vv1" secondAttribute="trailing" id="eG7-gw-CqL"/>
+                <constraint firstItem="2cC-Bj-bU2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="pRk-c0-kzD"/>
+                <constraint firstAttribute="bottom" secondItem="saK-0Y-Agv" secondAttribute="bottom" id="rkW-2k-8Oe"/>
+                <constraint firstItem="Oj4-z0-vv1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yfE-O9-OGz"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

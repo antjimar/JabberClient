@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9152ABD1B944E9E00E57B83 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9152ABB1B944E9E00E57B83 /* ChatViewController.m */; };
+		A9152ABE1B944E9E00E57B83 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9152ABC1B944E9E00E57B83 /* ChatViewController.xib */; };
 		A97029431B8CB40500AA76F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A97029421B8CB40500AA76F1 /* main.m */; };
 		A97029461B8CB40500AA76F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97029451B8CB40500AA76F1 /* AppDelegate.m */; };
 		A97029491B8CB40500AA76F1 /* JabberClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97029481B8CB40500AA76F1 /* JabberClientViewController.m */; };
@@ -31,6 +33,9 @@
 
 /* Begin PBXFileReference section */
 		93DA9A2B8A19A9F9F5E5A5A3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A9152ABA1B944E9E00E57B83 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		A9152ABB1B944E9E00E57B83 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		A9152ABC1B944E9E00E57B83 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		A970293D1B8CB40500AA76F1 /* JabberClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JabberClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97029411B8CB40500AA76F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A97029421B8CB40500AA76F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +120,9 @@
 				A97029691B8CBD2200AA76F1 /* LoginViewController.h */,
 				A970296A1B8CBD2200AA76F1 /* LoginViewController.m */,
 				A970296B1B8CBD2200AA76F1 /* LoginViewController.xib */,
+				A9152ABA1B944E9E00E57B83 /* ChatViewController.h */,
+				A9152ABB1B944E9E00E57B83 /* ChatViewController.m */,
+				A9152ABC1B944E9E00E57B83 /* ChatViewController.xib */,
 				A97029471B8CB40500AA76F1 /* JabberClientViewController.h */,
 				A97029481B8CB40500AA76F1 /* JabberClientViewController.m */,
 				A970294A1B8CB40500AA76F1 /* Main.storyboard */,
@@ -236,6 +244,7 @@
 				A970296D1B8CBD2200AA76F1 /* LoginViewController.xib in Resources */,
 				A970294C1B8CB40500AA76F1 /* Main.storyboard in Resources */,
 				A97029511B8CB40500AA76F1 /* LaunchScreen.xib in Resources */,
+				A9152ABE1B944E9E00E57B83 /* ChatViewController.xib in Resources */,
 				A970294E1B8CB40500AA76F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +298,7 @@
 			files = (
 				A970296C1B8CBD2200AA76F1 /* LoginViewController.m in Sources */,
 				A97029491B8CB40500AA76F1 /* JabberClientViewController.m in Sources */,
+				A9152ABD1B944E9E00E57B83 /* ChatViewController.m in Sources */,
 				A97029461B8CB40500AA76F1 /* AppDelegate.m in Sources */,
 				A97029431B8CB40500AA76F1 /* main.m in Sources */,
 			);
